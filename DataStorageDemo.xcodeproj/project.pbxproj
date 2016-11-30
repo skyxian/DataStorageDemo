@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4490F20D90B3B719E344CA8D /* libPods-DataStorageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E650E094B1F1AC23CC38CEB /* libPods-DataStorageDemo.a */; };
+		A099A42F1DE6DEE800FCBF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A42E1DE6DEE800FCBF2A /* main.m */; };
+		A099A4321DE6DEE800FCBF2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4311DE6DEE800FCBF2A /* AppDelegate.m */; };
+		A099A4341DE6DEE800FCBF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A099A4331DE6DEE800FCBF2A /* Assets.xcassets */; };
+		A099A4371DE6DEE800FCBF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A099A4351DE6DEE800FCBF2A /* LaunchScreen.storyboard */; };
+		A099A4421DE6DEE800FCBF2A /* DataStorageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4411DE6DEE800FCBF2A /* DataStorageDemoTests.m */; };
+		A099A44D1DE6DEE800FCBF2A /* DataStorageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A44C1DE6DEE800FCBF2A /* DataStorageDemoUITests.m */; };
+		A099A45C1DE6DF3800FCBF2A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A45B1DE6DF3800FCBF2A /* RootViewController.m */; };
+		A099A45F1DE6E23200FCBF2A /* PlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A45E1DE6E23200FCBF2A /* PlistViewController.m */; };
+		A099A4621DE6E24C00FCBF2A /* UserDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4611DE6E24C00FCBF2A /* UserDefaultViewController.m */; };
+		A099A4651DE6E25F00FCBF2A /* KeyedArchiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4641DE6E25F00FCBF2A /* KeyedArchiverViewController.m */; };
+		A099A4681DE6E27300FCBF2A /* FMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4671DE6E27300FCBF2A /* FMDBViewController.m */; };
+		A099A46B1DE6E28400FCBF2A /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A46A1DE6E28400FCBF2A /* CoreDataViewController.m */; };
+		A099A46D1DE6E4BE00FCBF2A /* PlistView.plist in Resources */ = {isa = PBXBuildFile; fileRef = A099A46C1DE6E4BE00FCBF2A /* PlistView.plist */; };
+		A099A4721DE8044900FCBF2A /* LoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4711DE8044900FCBF2A /* LoadViewController.m */; };
+		A099A4771DE8435400FCBF2A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4761DE8435400FCBF2A /* LoginViewController.m */; };
+		A099A4BA1DE853EB00FCBF2A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4B91DE853EB00FCBF2A /* User.m */; };
+		A099A4BD1DE948B500FCBF2A /* CarInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A099A4BC1DE948B500FCBF2A /* CarInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A099A43E1DE6DEE800FCBF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A099A4221DE6DEE800FCBF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A099A4291DE6DEE800FCBF2A;
+			remoteInfo = DataStorageDemo;
+		};
+		A099A4491DE6DEE800FCBF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A099A4221DE6DEE800FCBF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A099A4291DE6DEE800FCBF2A;
+			remoteInfo = DataStorageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E650E094B1F1AC23CC38CEB /* libPods-DataStorageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataStorageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED47A79294B36265EDDCF6A /* Pods-DataStorageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataStorageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataStorageDemo/Pods-DataStorageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A099A42A1DE6DEE800FCBF2A /* DataStorageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStorageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A099A42E1DE6DEE800FCBF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A099A4301DE6DEE800FCBF2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A099A4311DE6DEE800FCBF2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A099A4331DE6DEE800FCBF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A099A4361DE6DEE800FCBF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A099A4381DE6DEE800FCBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A099A43D1DE6DEE800FCBF2A /* DataStorageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStorageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A099A4411DE6DEE800FCBF2A /* DataStorageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStorageDemoTests.m; sourceTree = "<group>"; };
+		A099A4431DE6DEE800FCBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A099A4481DE6DEE800FCBF2A /* DataStorageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStorageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A099A44C1DE6DEE800FCBF2A /* DataStorageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStorageDemoUITests.m; sourceTree = "<group>"; };
+		A099A44E1DE6DEE800FCBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A099A45A1DE6DF3800FCBF2A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A099A45B1DE6DF3800FCBF2A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A099A45D1DE6E23200FCBF2A /* PlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistViewController.h; sourceTree = "<group>"; };
+		A099A45E1DE6E23200FCBF2A /* PlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistViewController.m; sourceTree = "<group>"; };
+		A099A4601DE6E24C00FCBF2A /* UserDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultViewController.h; sourceTree = "<group>"; };
+		A099A4611DE6E24C00FCBF2A /* UserDefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultViewController.m; sourceTree = "<group>"; };
+		A099A4631DE6E25F00FCBF2A /* KeyedArchiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyedArchiverViewController.h; sourceTree = "<group>"; };
+		A099A4641DE6E25F00FCBF2A /* KeyedArchiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyedArchiverViewController.m; sourceTree = "<group>"; };
+		A099A4661DE6E27300FCBF2A /* FMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBViewController.h; sourceTree = "<group>"; };
+		A099A4671DE6E27300FCBF2A /* FMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBViewController.m; sourceTree = "<group>"; };
+		A099A4691DE6E28400FCBF2A /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		A099A46A1DE6E28400FCBF2A /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		A099A46C1DE6E4BE00FCBF2A /* PlistView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlistView.plist; sourceTree = "<group>"; };
+		A099A4701DE8044900FCBF2A /* LoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadViewController.h; sourceTree = "<group>"; };
+		A099A4711DE8044900FCBF2A /* LoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadViewController.m; sourceTree = "<group>"; };
+		A099A4751DE8435400FCBF2A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A099A4761DE8435400FCBF2A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A099A4B81DE853EB00FCBF2A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A099A4B91DE853EB00FCBF2A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A099A4BB1DE948B500FCBF2A /* CarInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarInfo.h; sourceTree = "<group>"; };
+		A099A4BC1DE948B500FCBF2A /* CarInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarInfo.m; sourceTree = "<group>"; };
+		B7F67CE2288269A0407CF1AF /* Pods-DataStorageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataStorageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataStorageDemo/Pods-DataStorageDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A099A4271DE6DEE800FCBF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4490F20D90B3B719E344CA8D /* libPods-DataStorageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A099A43A1DE6DEE800FCBF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A099A4451DE6DEE800FCBF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6362915E0910891C0DA223A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E650E094B1F1AC23CC38CEB /* libPods-DataStorageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A099A4211DE6DEE800FCBF2A = {
+			isa = PBXGroup;
+			children = (
+				A099A42C1DE6DEE800FCBF2A /* DataStorageDemo */,
+				A099A4401DE6DEE800FCBF2A /* DataStorageDemoTests */,
+				A099A44B1DE6DEE800FCBF2A /* DataStorageDemoUITests */,
+				A099A42B1DE6DEE800FCBF2A /* Products */,
+				A2A686DCB36AC12F038B8203 /* Pods */,
+				6362915E0910891C0DA223A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A099A42B1DE6DEE800FCBF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A099A42A1DE6DEE800FCBF2A /* DataStorageDemo.app */,
+				A099A43D1DE6DEE800FCBF2A /* DataStorageDemoTests.xctest */,
+				A099A4481DE6DEE800FCBF2A /* DataStorageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A099A42C1DE6DEE800FCBF2A /* DataStorageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A099A4301DE6DEE800FCBF2A /* AppDelegate.h */,
+				A099A4311DE6DEE800FCBF2A /* AppDelegate.m */,
+				A099A4701DE8044900FCBF2A /* LoadViewController.h */,
+				A099A4711DE8044900FCBF2A /* LoadViewController.m */,
+				A099A4751DE8435400FCBF2A /* LoginViewController.h */,
+				A099A4761DE8435400FCBF2A /* LoginViewController.m */,
+				A099A45A1DE6DF3800FCBF2A /* RootViewController.h */,
+				A099A45B1DE6DF3800FCBF2A /* RootViewController.m */,
+				A099A45D1DE6E23200FCBF2A /* PlistViewController.h */,
+				A099A45E1DE6E23200FCBF2A /* PlistViewController.m */,
+				A099A4601DE6E24C00FCBF2A /* UserDefaultViewController.h */,
+				A099A4611DE6E24C00FCBF2A /* UserDefaultViewController.m */,
+				A099A4631DE6E25F00FCBF2A /* KeyedArchiverViewController.h */,
+				A099A4641DE6E25F00FCBF2A /* KeyedArchiverViewController.m */,
+				A099A4661DE6E27300FCBF2A /* FMDBViewController.h */,
+				A099A4671DE6E27300FCBF2A /* FMDBViewController.m */,
+				A099A4691DE6E28400FCBF2A /* CoreDataViewController.h */,
+				A099A46A1DE6E28400FCBF2A /* CoreDataViewController.m */,
+				A099A4B81DE853EB00FCBF2A /* User.h */,
+				A099A4B91DE853EB00FCBF2A /* User.m */,
+				A099A4BB1DE948B500FCBF2A /* CarInfo.h */,
+				A099A4BC1DE948B500FCBF2A /* CarInfo.m */,
+				A099A4331DE6DEE800FCBF2A /* Assets.xcassets */,
+				A099A4351DE6DEE800FCBF2A /* LaunchScreen.storyboard */,
+				A099A4381DE6DEE800FCBF2A /* Info.plist */,
+				A099A46C1DE6E4BE00FCBF2A /* PlistView.plist */,
+				A099A42D1DE6DEE800FCBF2A /* Supporting Files */,
+			);
+			path = DataStorageDemo;
+			sourceTree = "<group>";
+		};
+		A099A42D1DE6DEE800FCBF2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A099A42E1DE6DEE800FCBF2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A099A4401DE6DEE800FCBF2A /* DataStorageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A099A4411DE6DEE800FCBF2A /* DataStorageDemoTests.m */,
+				A099A4431DE6DEE800FCBF2A /* Info.plist */,
+			);
+			path = DataStorageDemoTests;
+			sourceTree = "<group>";
+		};
+		A099A44B1DE6DEE800FCBF2A /* DataStorageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A099A44C1DE6DEE800FCBF2A /* DataStorageDemoUITests.m */,
+				A099A44E1DE6DEE800FCBF2A /* Info.plist */,
+			);
+			path = DataStorageDemoUITests;
+			sourceTree = "<group>";
+		};
+		A2A686DCB36AC12F038B8203 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ED47A79294B36265EDDCF6A /* Pods-DataStorageDemo.debug.xcconfig */,
+				B7F67CE2288269A0407CF1AF /* Pods-DataStorageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A099A4291DE6DEE800FCBF2A /* DataStorageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A099A4511DE6DEE800FCBF2A /* Build configuration list for PBXNativeTarget "DataStorageDemo" */;
+			buildPhases = (
+				10582F710D3235A13D10711F /* [CP] Check Pods Manifest.lock */,
+				A099A4261DE6DEE800FCBF2A /* Sources */,
+				A099A4271DE6DEE800FCBF2A /* Frameworks */,
+				A099A4281DE6DEE800FCBF2A /* Resources */,
+				DA2709CED83C9F509A7747BB /* [CP] Embed Pods Frameworks */,
+				A1182E110247C0D190D09114 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStorageDemo;
+			productName = DataStorageDemo;
+			productReference = A099A42A1DE6DEE800FCBF2A /* DataStorageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A099A43C1DE6DEE800FCBF2A /* DataStorageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A099A4541DE6DEE800FCBF2A /* Build configuration list for PBXNativeTarget "DataStorageDemoTests" */;
+			buildPhases = (
+				A099A4391DE6DEE800FCBF2A /* Sources */,
+				A099A43A1DE6DEE800FCBF2A /* Frameworks */,
+				A099A43B1DE6DEE800FCBF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A099A43F1DE6DEE800FCBF2A /* PBXTargetDependency */,
+			);
+			name = DataStorageDemoTests;
+			productName = DataStorageDemoTests;
+			productReference = A099A43D1DE6DEE800FCBF2A /* DataStorageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A099A4471DE6DEE800FCBF2A /* DataStorageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A099A4571DE6DEE800FCBF2A /* Build configuration list for PBXNativeTarget "DataStorageDemoUITests" */;
+			buildPhases = (
+				A099A4441DE6DEE800FCBF2A /* Sources */,
+				A099A4451DE6DEE800FCBF2A /* Frameworks */,
+				A099A4461DE6DEE800FCBF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A099A44A1DE6DEE800FCBF2A /* PBXTargetDependency */,
+			);
+			name = DataStorageDemoUITests;
+			productName = DataStorageDemoUITests;
+			productReference = A099A4481DE6DEE800FCBF2A /* DataStorageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A099A4221DE6DEE800FCBF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xbk;
+				TargetAttributes = {
+					A099A4291DE6DEE800FCBF2A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A099A43C1DE6DEE800FCBF2A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A099A4291DE6DEE800FCBF2A;
+					};
+					A099A4471DE6DEE800FCBF2A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A099A4291DE6DEE800FCBF2A;
+					};
+				};
+			};
+			buildConfigurationList = A099A4251DE6DEE800FCBF2A /* Build configuration list for PBXProject "DataStorageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A099A4211DE6DEE800FCBF2A;
+			productRefGroup = A099A42B1DE6DEE800FCBF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A099A4291DE6DEE800FCBF2A /* DataStorageDemo */,
+				A099A43C1DE6DEE800FCBF2A /* DataStorageDemoTests */,
+				A099A4471DE6DEE800FCBF2A /* DataStorageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A099A4281DE6DEE800FCBF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A099A4341DE6DEE800FCBF2A /* Assets.xcassets in Resources */,
+				A099A4371DE6DEE800FCBF2A /* LaunchScreen.storyboard in Resources */,
+				A099A46D1DE6E4BE00FCBF2A /* PlistView.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A099A43B1DE6DEE800FCBF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A099A4461DE6DEE800FCBF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10582F710D3235A13D10711F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1182E110247C0D190D09114 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataStorageDemo/Pods-DataStorageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2709CED83C9F509A7747BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataStorageDemo/Pods-DataStorageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A099A4261DE6DEE800FCBF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A099A4321DE6DEE800FCBF2A /* AppDelegate.m in Sources */,
+				A099A42F1DE6DEE800FCBF2A /* main.m in Sources */,
+				A099A4BD1DE948B500FCBF2A /* CarInfo.m in Sources */,
+				A099A4621DE6E24C00FCBF2A /* UserDefaultViewController.m in Sources */,
+				A099A45C1DE6DF3800FCBF2A /* RootViewController.m in Sources */,
+				A099A4771DE8435400FCBF2A /* LoginViewController.m in Sources */,
+				A099A45F1DE6E23200FCBF2A /* PlistViewController.m in Sources */,
+				A099A4BA1DE853EB00FCBF2A /* User.m in Sources */,
+				A099A46B1DE6E28400FCBF2A /* CoreDataViewController.m in Sources */,
+				A099A4681DE6E27300FCBF2A /* FMDBViewController.m in Sources */,
+				A099A4721DE8044900FCBF2A /* LoadViewController.m in Sources */,
+				A099A4651DE6E25F00FCBF2A /* KeyedArchiverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A099A4391DE6DEE800FCBF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A099A4421DE6DEE800FCBF2A /* DataStorageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A099A4441DE6DEE800FCBF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A099A44D1DE6DEE800FCBF2A /* DataStorageDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A099A43F1DE6DEE800FCBF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A099A4291DE6DEE800FCBF2A /* DataStorageDemo */;
+			targetProxy = A099A43E1DE6DEE800FCBF2A /* PBXContainerItemProxy */;
+		};
+		A099A44A1DE6DEE800FCBF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A099A4291DE6DEE800FCBF2A /* DataStorageDemo */;
+			targetProxy = A099A4491DE6DEE800FCBF2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A099A4351DE6DEE800FCBF2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A099A4361DE6DEE800FCBF2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A099A44F1DE6DEE800FCBF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A099A4501DE6DEE800FCBF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A099A4521DE6DEE800FCBF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED47A79294B36265EDDCF6A /* Pods-DataStorageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataStorageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xbk.DataStorageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A099A4531DE6DEE800FCBF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F67CE2288269A0407CF1AF /* Pods-DataStorageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataStorageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xbk.DataStorageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A099A4551DE6DEE800FCBF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DataStorageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xbk.DataStorageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataStorageDemo.app/DataStorageDemo";
+			};
+			name = Debug;
+		};
+		A099A4561DE6DEE800FCBF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DataStorageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xbk.DataStorageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataStorageDemo.app/DataStorageDemo";
+			};
+			name = Release;
+		};
+		A099A4581DE6DEE800FCBF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataStorageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xbk.DataStorageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataStorageDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A099A4591DE6DEE800FCBF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataStorageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xbk.DataStorageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataStorageDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A099A4251DE6DEE800FCBF2A /* Build configuration list for PBXProject "DataStorageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A099A44F1DE6DEE800FCBF2A /* Debug */,
+				A099A4501DE6DEE800FCBF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A099A4511DE6DEE800FCBF2A /* Build configuration list for PBXNativeTarget "DataStorageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A099A4521DE6DEE800FCBF2A /* Debug */,
+				A099A4531DE6DEE800FCBF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A099A4541DE6DEE800FCBF2A /* Build configuration list for PBXNativeTarget "DataStorageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A099A4551DE6DEE800FCBF2A /* Debug */,
+				A099A4561DE6DEE800FCBF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A099A4571DE6DEE800FCBF2A /* Build configuration list for PBXNativeTarget "DataStorageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A099A4581DE6DEE800FCBF2A /* Debug */,
+				A099A4591DE6DEE800FCBF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A099A4221DE6DEE800FCBF2A /* Project object */;
+}
